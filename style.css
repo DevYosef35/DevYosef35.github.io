@@ -1,7 +1,15 @@
+body{
+    margin: 0;
+}
 div{
-    display: inline-block;
+    display: flex;
+}
+.nav-li{
+    padding-top: 70px;
+    justify-content: space-between;
 }
 ul{
+    justify-content: space-between;
     list-style: none;
 }
 ul a{
@@ -11,6 +19,13 @@ ul a{
     text-decoration: none;
 }
 ul li{
-    display: inline-block;
+    display: inline;
     padding: 12px;
 }
+
+.container{
+
+    width: 100%;
+   
+}
+
